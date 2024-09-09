@@ -214,7 +214,9 @@
     <section id="artists" class="why-us">
       <div class="container" data-aos="fade-up">
 
-        <div class="section-title">
+      <livewire:artists />
+
+        {{-- <div class="section-title">
           <h2>Our</h2>
           <p>Artists</p>
         </div>
@@ -267,7 +269,7 @@
          
             </div>
           </a>
-          </div>
+          </div> --}}
 
 
         </div>
@@ -280,42 +282,6 @@
       <div class="container" data-aos="fade-up">
 
              <livewire:releases />
-
-        {{-- <div class="md:w-3/4 mx-auto ">
-
-          <div class="text-center my-4">
-          <h2>Don't miss "Matrix Glitch" out July 26!</h2>
-          <p>👇 Pre-save here 👇</p>
-          <a href="https://bfan.link/matrix-glitch" target="_blank" rel="noopener noreferrer" class="bg-red-700 text-white">https://bfan.link/matrix-glitch</a>
-
-        </div>
-
-        <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/26DQmzjVIHaKpZKfVv54l6?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-      </div>
-
-      <div class="md:w-3/4 mx-auto py-4">
-        <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/6xl7BbDBYIkWXcys8Shu4H?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-      <p class="mt-2 bg-gray-700 p-2 rounded-md">G&S's track "Back to Black" reached an impressive #15 on the prestigious Music Week Upfront chart in the UK. This remarkable achievement highlights the overwhelming support the track received, with a staggering 71% of industry insiders and tastemakers backing its success.</p>
-      </div>
-
-      <div class="md:w-3/4 mx-auto ">
-      <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/6zxJmiH2nAmqzY377URnJX?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-    </div>
-
-      <div class="md:w-3/4 mx-auto py-4">
-        <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/0hrjLt8ZiMHzb6THZELH2n?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-      </div>
-
-      <div class="md:w-3/4 mx-auto">
-        <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/6tWjyrs1LLVVdIYIwRUQWB?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-      </div>
-
-      <div class="md:w-3/4 mx-auto py-4">
-        <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/51R9KqdvmKMPUkReMs7aH3?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-      </div> --}}
-
-
-
 
 </div>
        
