@@ -93,7 +93,7 @@
   gtag('config', 'G-1PQQSTPYZC');
 </script>
 
-
+ @livewireStyles
 </head>
 
 <body>
@@ -279,12 +279,9 @@
     <section id="releases" class="bg-black">
       <div class="container" data-aos="fade-up">
 
-        <div class="section-title">
-          <h2>Releases</h2>
-          <p>Check Our Releases</p>
-        </div>
+             <livewire:releases />
 
-        <div class="md:w-3/4 mx-auto ">
+        {{-- <div class="md:w-3/4 mx-auto ">
 
           <div class="text-center my-4">
           <h2>Don't miss "Matrix Glitch" out July 26!</h2>
@@ -315,7 +312,7 @@
 
       <div class="md:w-3/4 mx-auto py-4">
         <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/51R9KqdvmKMPUkReMs7aH3?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-      </div>
+      </div> --}}
 
 
 
@@ -323,7 +320,8 @@
 </div>
        
 
-    </section><!--End Releases Section -->
+    </section>
+    <!--End Releases Section -->
 
  <!-- ======= Playlists ======= -->
 <section id="playlists" class="events">
@@ -576,6 +574,8 @@
       },
     });
   </script>
+
+   @livewireScripts
 </body>
 
 </html>
