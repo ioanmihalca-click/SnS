@@ -4,15 +4,21 @@
           <p>Check Our Releases</p>
         </div>
 
-    @foreach($releases as $release)
-        <div class="mb-8">
-            <h2 class="text-xl font-bold mb-2">{{ $release->title }}</h2>
+    <div class="grid grid-cols-1 md:grid-cols-4  gap-8">
+        @foreach($releases as $release)
+            <div class="bg-gray-900 rounded-lg overflow-hidden shadow-lg">
+                <div class="p-6">
+                    <h3 class="text-xl font-bold mb-4 text-red-800">{{ $release->title }}</h3>
+                    
+                    <div class="mb-4">
+                        {!! $release->spotify_embed_code !!}
+                    </div>
 
-            {!! $release->spotify_embed_code !!}
-
-            @if($release->description)
-                <p class="mt-2 bg-gray-700 p-2 rounded-md">{{ $release->description }}</p>
-            @endif
-        </div>
-    @endforeach
+                    @if($release->description)
+                        <p class="mt-4 bg-gray-800 p-3 rounded-md text-gray-300">{{ $release->description }}</p>
+                    @endif
+                </div>
+            </div>
+        @endforeach
+    </div>
 </div>

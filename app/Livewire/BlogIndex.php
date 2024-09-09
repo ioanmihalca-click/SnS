@@ -37,8 +37,7 @@ class BlogIndex extends Component
             })
             ->orderBy('published_at', 'desc');
 
-        // Debug: Get the SQL query
-        $this->debugSql = $query->toSql();
+     
         
         $blogs = $query->paginate($this->postsPerPage);
 

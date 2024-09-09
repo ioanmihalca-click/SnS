@@ -29,8 +29,8 @@
 
 
   <!-- Favicons -->
-  <link href="/assets/img/favicon.ico" rel="icon">
-  <link href="/assets/img/apple-touch-icon.ico" rel="apple-touch-icon">
+    <link href="{{ asset('assets/img/favicon.ico') }}" rel="icon">
+    <link href="{{ asset('assets/img/apple-touch-icon.ico') }}" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
@@ -47,7 +47,7 @@
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
 
-  <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+ 
 
   <script type="application/ld+json">
     {
@@ -94,11 +94,12 @@
 </script>
 
  @livewireStyles
-</head>
+
+
 
 <body>
 
-  <!-- ======= Top Bar ======= -->
+ <!-- ======= Top Bar ======= -->
   <div id="topbar" class="d-flex align-items-center fixed-top">
     <div class="container d-flex justify-content-center justify-content-md-between">
 
@@ -121,7 +122,7 @@
 
       <nav id="navbar" class="navbar order-last order-lg-0">
         <ul>
-          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+          <li><a class="nav-link scrollto active" href="/">Home</a></li>
           <li><a class="nav-link scrollto" href="#about">About</a></li>
           <li><a class="nav-link scrollto" href="#artists">Artists</a></li>
           <li><a class="nav-link scrollto" href="#releases">Releases</a></li> 
@@ -138,6 +139,7 @@
     </div>
   </header><!-- End Header -->
 
+ 
   <!-- ======= Hero Section ======= -->
   <section id="hero" class="d-flex align-items-center">
     <div class="container position-relative text-center text-lg-start" data-aos="zoom-in" data-aos-delay="100">
@@ -154,7 +156,7 @@
           <div class="btns">
             <a href="#releases" class="btn-menu animated fadeInUp scrollto">Our Music</a>
             <a href="#artists" class="btn-book animated fadeInUp scrollto">Our Artists</a>
-
+             <a href="/blog" class="btn-book animated fadeInUp scrollto">Blog/ Latest News</a>
           </div>
 
         </div>
@@ -169,6 +171,7 @@
 
 
   </section><!-- End Hero -->
+  
 
   <main id="main">
 
@@ -512,7 +515,7 @@
       </div>
       <div class="credits">
  
-        Website by <a href="https://clickstudios-digital.com">Click Studios Digital</a> @ <a href="https://bootstrapmade.com/">BootstrapMade</a>
+        Web application by <a href="https://clickstudios-digital.com">Click Studios Digital</a>
       </div>
     </div>
   </footer><!-- End Footer -->
@@ -544,6 +547,8 @@
   </script>
 
    @livewireScripts
+
+ 
 </body>
 
 </html>
