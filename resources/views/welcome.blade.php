@@ -221,61 +221,7 @@
 
       <livewire:artists />
 
-        {{-- <div class="section-title">
-          <h2>Our</h2>
-          <p>Artists</p>
-        </div>
-
-        <div class="row">
-
-          <div class="col-lg-4">
-            <a href="https://open.spotify.com/artist/1ZMBY94RIDI1PLHrxY4iax?si=6e8c4ffed0314a6d" target="_blank" rel="noreferrer">
-            <div class="box" data-aos="zoom-in" data-aos-delay="100">
-              <span>01</span>
-              <h4>G&S</h4>
-             
-              <p>G&S, an electronic music act, is a collaboration between DJ Glenn Forrestgate from Sweden and producer Style Da Kid from Romania. Their sound is a captivating blend of Deep House, Tech House, and Techno. After gaining significant DJ support for their recently releases, G&S is back with their latest track, Deep house remake of Amy Winehouse Back to black. 71% of the tastemakers Djs supporting it so far in the UK. Their music has the versatility to resonate with both underground BBC shows and mainstream dance radios like Italy’s Discoradio. With their unique style and authenticity, G&S showcases a fresh perspective on what House music can truly be</p>
-            </div>
-            </a>
-          </div>
-
-          <div class="mt-4 col-lg-4 mt-lg-0">
-            <a href="https://open.spotify.com/artist/6YOmRPkzjX9bbTl6Qi2WPy?si=ed909ae2d1a54788" target="_blank" rel="noreferrer">
-            <div class="box" data-aos="zoom-in" data-aos-delay="200">
-              <span>02</span>
-              <h4>THK</h4>
-              <p>THK, a dynamic duo formed by Glenn Forrestgate and Style da Kid in Ibiza 2018, has made waves in the electronic music scene. Let’s dive into their journey and notable releases: These talented artists are carving their path in the music industry, and their genre-blending sound is captivating audiences across borders. Chop of a Brick (feat. Vic Rippa): Their debut release on Sony Germany showcased their originality and fresh approach. The track caught the attention of electronic music enthusiasts worldwide. Warrior: Their second single became a sensation in Russia and neighboring countries. With over 600,000 radio spins, it continues to resonate with listeners. Three Little Birds: Released on Ultra Music, this single blends their signature style with elements of Trap and House. Featuring Pacha Man, it adds a reggae vibe to the track, creating a unique fusion.</p>
-            </div>
-          </a>
-          </div>
-
-          <div class="mt-4 col-lg-4 mt-lg-0">
-            <a href="https://open.spotify.com/artist/6wIX9hW2uQAVv190xXV9mA?si=WaUucV3URJaHkzoF1ct57w" target="_blank" rel="noreferrer">
-            <div class="box" data-aos="zoom-in" data-aos-delay="300">
-              <span>03</span>
-              <h4>Snow n Stuff</h4>
-              <p>Snow N Stuff is a Swedish & Romanian trio composed by Alexander, Glenn Forrestgate and Style da Kid, most of their releases have been premiered on BBC radio 6 and had support from big djs across the world. Their style even though generally Progressive Techno is esoteric in approach and sound design and can vary from Dark Acid to warm and melodic.</p>
-            </div>
-            </a>
-          </div>
-
-          <div class="mt-4 col-lg-4 mt-lg-0">
-            <a href=" https://open.spotify.com/artist/1JpJWfPLvsbrrVgVjxVwKO?si=GNtWj4HMTwqCugc6uC2Y4g" target="_blank" rel="noreferrer">
-            <div class="box" data-aos="zoom-in" data-aos-delay="300">
-           
-              <span>04</span>
-              <h4>Syle da Kid</h4>
-              
-             
-              <p>Style da Kid is an emerging force in the contemporary music scene, renowned for his distinctive style and captivating productions. A Romanian record producer and sound designer, he has garnered widespread acclaim as the driving force behind acclaimed acts like THK, G&S, and Snow N Stuff. <br>
-                His productions have found their way onto prestigious labels such as Ultra Music, Sony Music, Columbia Music, and Warner Music, amassing millions of YouTube views, streams, and extensive airplay worldwide. As a sound designer, Style da Kid's sample packs have achieved best-seller status, with his work consistently ranking in the top 10 on platforms like Loop Masters for months on end. <br>
-                Not only is he a prolific producer, but Style da Kid also showcases his versatility as a mixing and mastering engineer, applying his expertise to his own productions as well as those of other artists under his label, Snow N Stuff Records. <br>
-                With a unique blend of creativity, technical prowess, and an unwavering commitment to his craft, Style da Kid continues to cement his position as a rising star in the global music industry, captivating audiences with his innovative sound and uncompromising artistry.</p>
-         
-            </div>
-          </a>
-          </div> --}}
-
+      
 
         </div>
 

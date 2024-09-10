@@ -8,7 +8,7 @@
         @foreach($releases as $release)
             <div class="overflow-hidden ">
                 <div class="p-6">
-                    <h3 class="mb-4 text-xl font-bold text-red-800">{{ $release->title }}</h3>
+                    {{-- <h3 class="mb-4 text-xl text-center font-bold text-red-800">{{ $release->title }}</h3> --}}
                     
                     <div class="mb-4">
                         {!! $release->spotify_embed_code !!}
