@@ -156,7 +156,7 @@
           <div class="btns">
             <a href="#releases" class="btn-menu animated fadeInUp scrollto">Our Music</a>
             <a href="#artists" class="btn-book animated fadeInUp scrollto">Our Artists</a>
-             <a href="/blog" class="btn-book animated fadeInUp scrollto">Blog/ Latest News</a>
+             <a href="/blog" class="btn-book mt-4 md:mt-0 animated fadeInUp scrollto">Blog/ Latest News</a>
           </div>
 
         </div>
