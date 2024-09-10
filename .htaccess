@@ -1,0 +1,17 @@
+<IfModule mod_rewrite.c>
+  
+RewriteEngine On
+
+  # Redirect from http:// and https://www to https://https://www.snow-n-stuff.com/ (non-www)
+  RewriteCond %{HTTP_HOST} ^(www\.)?snow-n-stuff\.com [NC,OR]
+  RewriteCond %{HTTP_HOST} ^snow-n-stuf\.com [NC]
+  RewriteCond %{HTTPS} off
+  RewriteRule ^(.*)$ https://https://www.snow-n-stuff.com//$1 [L,R=301]
+
+  RewriteCond %{HTTP_HOST} ^www\.snow-n-stuff\.com [NC]
+  RewriteRule ^(.*)$ https://https://www.snow-n-stuff.com//$1 [L,R=301]
+
+    # Internal rewrite to public directory
+    RewriteRule ^$ public/ [L]
+    RewriteRule (.*) public/$1 [L]
+</IfModule>
