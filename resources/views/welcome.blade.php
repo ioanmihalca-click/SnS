@@ -303,11 +303,11 @@
       <p>Check our curated Playlists</p>
     </div>
 
-    <!-- Swiper Slider Container -->
-    <div class="w-3/4 mx-auto swiper-container">
-      <div class="swiper-wrapper">
+    
 
-        <!-- First Playlist Slide -->
+      <livewire:playlist-slider />
+
+        {{-- <!-- First Playlist Slide -->
         <div class="swiper-slide">
           <iframe class="playlist-iframe" src="https://open.spotify.com/embed/playlist/28I7hCUFTyqblhgu5yGkOO?utm_source=generator" width="100%" height="352" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
         </div>
@@ -332,7 +332,7 @@
                           <iframe class="playlist-iframe" src="https://open.spotify.com/embed/playlist/4SFqIi6db3fdDAIWwHgPSp?utm_source=generator" width="100%" height="352" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
                         </div>
                 
-          
+           --}}
     
     
 
@@ -340,14 +340,7 @@
 
 
 
-    
-  </div>
-</div>
-<!-- Add Pagination -->
-<div class="swiper-pagination"></div>
-<!-- Add Navigation Arrows -->
-<div class="swiper-button-next"></div>
-<div class="swiper-button-prev"></div>
+  
 </div>
 
 </section><!-- End Playlists Section -->
