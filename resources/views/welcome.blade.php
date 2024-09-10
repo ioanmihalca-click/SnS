@@ -120,7 +120,7 @@
       <!-- Uncomment below if you prefer to use an image logo -->
       <!-- <a href="index.html" class="logo me-auto me-lg-0"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
 
-      <nav id="navbar" class="navbar order-last order-lg-0">
+      <nav id="navbar" class="order-last navbar order-lg-0">
         <ul>
           <li><a class="nav-link scrollto active" href="/">Home</a></li>
           <li><a class="nav-link scrollto" href="#about">About</a></li>
@@ -142,7 +142,7 @@
  
   <!-- ======= Hero Section ======= -->
   <section id="hero" class="d-flex align-items-center">
-    <div class="container position-relative text-center text-lg-start" data-aos="zoom-in" data-aos-delay="100">
+    <div class="container text-center position-relative text-lg-start" data-aos="zoom-in" data-aos-delay="100">
       <div class="row">
         <div class="col-lg-8">
           <h1>Welcome to <span>Snow n Stuff</span></h1>
@@ -186,12 +186,12 @@
         </div>
 
         <div class="row">
-          <div class="col-lg-6 order-1 order-lg-2" data-aos="zoom-in" data-aos-delay="100">
+          <div class="order-1 col-lg-6 order-lg-2" data-aos="zoom-in" data-aos-delay="100">
             <div class="about-img">
               <img class="rounded-lg" src="assets/img/about.jpg" alt="About Snow n Stuff">
             </div>
           </div>
-          <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content">
+          <div class="order-2 pt-4 col-lg-6 pt-lg-0 order-lg-1 content">
             <h3>Management, Label and Music Production </h3>
             <br>
             <p class="fst-italic">
@@ -239,7 +239,7 @@
             </a>
           </div>
 
-          <div class="col-lg-4 mt-4 mt-lg-0">
+          <div class="mt-4 col-lg-4 mt-lg-0">
             <a href="https://open.spotify.com/artist/6YOmRPkzjX9bbTl6Qi2WPy?si=ed909ae2d1a54788" target="_blank" rel="noreferrer">
             <div class="box" data-aos="zoom-in" data-aos-delay="200">
               <span>02</span>
@@ -249,7 +249,7 @@
           </a>
           </div>
 
-          <div class="col-lg-4 mt-4 mt-lg-0">
+          <div class="mt-4 col-lg-4 mt-lg-0">
             <a href="https://open.spotify.com/artist/6wIX9hW2uQAVv190xXV9mA?si=WaUucV3URJaHkzoF1ct57w" target="_blank" rel="noreferrer">
             <div class="box" data-aos="zoom-in" data-aos-delay="300">
               <span>03</span>
@@ -259,7 +259,7 @@
             </a>
           </div>
 
-          <div class="col-lg-4 mt-4 mt-lg-0">
+          <div class="mt-4 col-lg-4 mt-lg-0">
             <a href=" https://open.spotify.com/artist/1JpJWfPLvsbrrVgVjxVwKO?si=GNtWj4HMTwqCugc6uC2Y4g" target="_blank" rel="noreferrer">
             <div class="box" data-aos="zoom-in" data-aos-delay="300">
            
@@ -304,7 +304,7 @@
     </div>
 
     <!-- Swiper Slider Container -->
-    <div class="swiper-container w-3/4 mx-auto">
+    <div class="w-3/4 mx-auto swiper-container">
       <div class="swiper-wrapper">
 
         <!-- First Playlist Slide -->
@@ -358,7 +358,10 @@
     <section id="gallery" class="gallery">
 
       <div class="container" data-aos="fade-up">
-        <div class="section-title">
+
+      <livewire:photo-gallery />
+
+        {{-- <div class="section-title">
           <h2>Photos</h2>
           <p>Some photos of Our Artists</p>
         </div>
@@ -432,7 +435,7 @@
             </div>
           </div>
 
-        </div>
+        </div> --}}
 
       </div>
     </section><!-- End Gallery Section -->
@@ -454,7 +457,7 @@
 
       <div class="container" data-aos="fade-up">
 
-        <div class="row mt-5">
+        <div class="mt-5 row">
 
           <div class="col-lg-4">
             <div class="info">
@@ -480,14 +483,14 @@
 
           </div>
 
-          <div class="col-lg-8 mt-5 mt-lg-0">
+          <div class="mt-5 col-lg-8 mt-lg-0">
 
             
 
       <div class="text-2xl">
               <h3>Social Media</h3>
               
-              <div class="social-links mt-3">
+              <div class="mt-3 social-links">
                 <a href="https://x.com/G_n_S_" target="_blank" rel="noreferrer" class="twitter"><i class="bx bxl-twitter"></i></a>
                 <a href="https://www.facebook.com/SnowNStuff" target="_blank" rel="noreferrer" class="facebook"><i class="bx bxl-facebook"></i></a>
                 <a href="https://www.instagram.com/snow_n_stuff" target="_blank" rel="noreferrer" class="instagram"><i class="bx bxl-instagram"></i></a>
