@@ -1,27 +1,31 @@
-<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+<div class="space-y-8">
+    <h1 class="text-4xl font-bold text-red-800">Blog Posts</h1>
+
+<div class="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
     @foreach($blogs as $blog)
-        <article class="bg-black bg-opacity-50 rounded-lg overflow-hidden shadow-lg transition duration-300 hover:shadow-2xl">
+        <article class="overflow-hidden transition duration-300 bg-gray-800 bg-opacity-50 rounded-lg shadow-lg hover:shadow-2xl">
             @if($blog->cover_image)
-                <img src="{{ asset('storage/' . $blog->cover_image) }}" alt="{{ $blog->title }}" class="w-full h-48 object-cover">
+                <img src="{{ asset('storage/' . $blog->cover_image) }}" alt="{{ $blog->title }}" class="object-cover w-full h-48">
             @else
                 <div class="w-full h-48 bg-gray-800"></div>
             @endif
             <div class="p-6">
-                <h2 class="text-xl font-bold mb-2 line-clamp-1 text-red-800 hover:text-red-600 transition duration-300">
+                <h2 class="mb-2 text-xl font-bold text-red-800 transition duration-300 line-clamp-1 hover:text-red-600">
                     <a href="{{ route('blog.show', $blog->slug) }}">
                         {{ $blog->title }}
                     </a>
                 </h2>
-                <p class="text-gray-400 text-sm mb-4">
+                <p class="mb-4 text-sm text-gray-400">
                     Published on {{ $blog->published_at->format('F j, Y') }}
                 </p>
-                <div class="text-gray-300 mb-4 line-clamp-3">
+                <div class="mb-4 text-gray-300 line-clamp-3">
                     {!! strip_tags($blog->content) !!}
                 </div>
-                <a href="{{ route('blog.show', $blog->slug) }}" class="inline-block px-4 py-2 bg-red-800 text-white rounded hover:bg-red-700 transition duration-300">
+                <a href="{{ route('blog.show', $blog->slug) }}" class="inline-block px-4 py-2 text-white transition duration-300 bg-red-800 rounded hover:bg-red-700">
                     Read more
                 </a>
             </div>
         </article>
     @endforeach
+    </div>
 </div>
