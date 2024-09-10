@@ -46,7 +46,7 @@
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
-
+  <script src="https://cdn.tailwindcss.com"></script>
  
 
   <script type="application/ld+json">
@@ -487,16 +487,27 @@
 
             
 
-      <div class="text-2xl">
-              <h3>Social Media</h3>
-              
-              <div class="mt-3 social-links">
-                <a href="https://x.com/G_n_S_" target="_blank" rel="noreferrer" class="twitter"><i class="bx bxl-twitter"></i></a>
-                <a href="https://www.facebook.com/SnowNStuff" target="_blank" rel="noreferrer" class="facebook"><i class="bx bxl-facebook"></i></a>
-                <a href="https://www.instagram.com/snow_n_stuff" target="_blank" rel="noreferrer" class="instagram"><i class="bx bxl-instagram"></i></a>
-                <a href="https://www.linkedin.com/in/glenn-forrestgate-457228a9" target="_blank" rel="noreferrer" class="linkedin"><i class="bx bxl-linkedin"></i></a>
-              </div>
+      <div class="w-full px-4 lg:w-2/3">
+                <div class="p-6 ">
+                    <h3 class="mb-4 text-2xl font-bold text-white">Social Media</h3>
+                    
+                    <div class="flex space-x-6">
+                        <a href="https://x.com/G_n_S_" target="_blank" rel="noreferrer" class="text-4xl text-red-800 transition duration-300 hover:text-red-900">
+                            <i class="bx bxl-twitter"></i>
+                        </a>
+                        <a href="https://www.facebook.com/SnowNStuff" target="_blank" rel="noreferrer" class="text-4xl text-red-800 transition duration-300 hover:text-red-900">
+                            <i class="bx bxl-facebook"></i>
+                        </a>
+                        <a href="https://www.instagram.com/snow_n_stuff" target="_blank" rel="noreferrer" class="text-4xl text-red-800 transition duration-300 hover:text-red-900">
+                            <i class="bx bxl-instagram"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/glenn-forrestgate-457228a9" target="_blank" rel="noreferrer"  class="text-4xl text-red-800 transition duration-300 hover:text-red-900">
+                            <i class="bx bxl-linkedin"></i>
+                        </a>
+                    </div>
+                </div>
             </div>
+     
           </div>
 
           </div>
