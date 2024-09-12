@@ -93,6 +93,7 @@
   gtag('config', 'G-1PQQSTPYZC');
 </script>
 
+
  @livewireStyles
 
 
@@ -148,7 +149,7 @@
           <h1>Welcome to <span>Snow n Stuff</span></h1>
           <h2>Music Management, Label and Music Production</h2>
           <br>
-          <p>Snow ´n´ Stuff is releasing Tech House, Deep House, House  and Techno. <br>
+          <p>Snow 'n' Stuff is releasing Tech House, Deep House, House  and Techno. <br>
              Management for: THK, G&S, Snow N Stuff and Style Da Kid among others. <br> 
              Tastemaker & Curator of several Spotify playlists. Deep House & Ibiza and many more playlists. 
             </p>
@@ -156,7 +157,7 @@
           <div class="btns">
             <a href="#releases" class="btn-menu animated fadeInUp scrollto">Our Music</a>
             <a href="#artists" class="btn-book animated fadeInUp scrollto">Our Artists</a>
-             <a href="/blog" class="btn-book mt-4 md:mt-0 animated fadeInUp scrollto">Blog/ Latest News</a>
+             <a href="/blog" class="mt-4 btn-book md:mt-0 animated fadeInUp scrollto">Blog/ Latest News</a>
           </div>
 
         </div>
@@ -167,7 +168,9 @@
         </div>
 
       </div>
+      
     </div>
+
 
 
   </section><!-- End Hero -->
@@ -423,6 +426,7 @@
       },
     });
   </script>
+
 
    @livewireScripts
 

@@ -37,7 +37,8 @@
     <!-- Template Main CSS File -->
     <link href="/assets/css/style.css" rel="stylesheet">
 
-    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+ <script src="https://cdn.tailwindcss.com"></script>
+
 
     @livewireStyles
 
