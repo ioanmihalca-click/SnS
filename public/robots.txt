@@ -1,2 +1,4 @@
 User-agent: *
-Disallow:
+Disallow: 
+
+Sitemap: https://www.snow-n-stuff.com/sitemap.xml
