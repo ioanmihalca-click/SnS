@@ -159,6 +159,12 @@
             <a href="#artists" class="btn-book animated fadeInUp scrollto">Our Artists</a>
              <a href="/blog" class="mt-4 btn-book md:mt-0 animated fadeInUp scrollto">Blog/ Latest News</a>
           </div>
+          {{-- <div class="mt-8">  
+      
+        <livewire:latest-articles />
+        
+          </div> --}}
+
 
         </div>
 

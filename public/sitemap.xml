@@ -5,8 +5,6 @@
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 
-
-
 <url>
   <loc>https://www.snow-n-stuff.com/</loc>
   <lastmod>2024-06-06T20:54:21+00:00</lastmod>
@@ -20,8 +18,20 @@
 </url>
 
 <url>
+<loc>https://snow-n-stuff.com/blog/vocal-deep-house-playlist-update</loc>
+<lastmod>2024-09-16T11:42:12+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+
+<url>
+<loc>https://snow-n-stuff.com/blog/a-sonic-tapestry-unfolds-new-music-friday</loc>
+<lastmod>2024-09-16T11:42:12+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+
+<url>
 <loc>https://snow-n-stuff.com/blog/the-changing-landscape-of-the-music-industry</loc>
-<lastmod>2024-09-12T07:39:38+00:00</lastmod>
+<lastmod>2024-09-16T11:42:12+00:00</lastmod>
 <priority>0.80</priority>
 </url>
 
